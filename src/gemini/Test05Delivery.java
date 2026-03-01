@@ -20,7 +20,8 @@ public class Test05Delivery {
 		if(hasCoupon) {
 			totalPrice = (int)(totalPrice * 0.9);
 			System.out.println("쿠폰할인 10% 적용");
-			
+		}
+		
 		System.out.println("최종 배달비:"+totalPrice+"원");
 		
 		}
@@ -29,5 +30,3 @@ public class Test05Delivery {
 		
 		
 	} 
-
-}
